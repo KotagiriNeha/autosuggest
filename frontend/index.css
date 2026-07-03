@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+}
+
+/*property : value*/
+#home-intro{
+    text-align: center;
+    border: 3px;
+    border-color:black;
+    border-style:solid;
+
+    border: 3px solid blue;
+
+
+}
+
+
+#home-intro:hover{
+    background-color: blueviolet;
+
+}
+p2{
+    color:blue;
+}
