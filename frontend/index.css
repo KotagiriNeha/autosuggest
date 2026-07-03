@@ -22,3 +22,16 @@ h1{
 p2{
     color:blue;
 }
+
+#nav{
+    text-align:center;
+    background-color: brown;
+    height:25px;
+    padding-top: 5px;
+    margin-down: 5px;
+}
+#nav a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: bisque;
+}
