@@ -21,6 +21,30 @@
           text-align: center; 
           margin-top: 100px; 
         }
+        .logo-first{
+            color:green;
+        }
+        .tag-line{
+            color:gray;
+        }
+        .lens{
+            position: relative;
+            left: 30px;
+
+        }
+        .search-box{
+            padding: 15px 15px 15px 45px;
+            border-radius: 30px;
+            width: 40%;
+        }
+        #suggestion-box{
+            border: 1px solid black;
+            width: 45%;
+            margin-left: 29%;
+        }
+
+        
+
     </style>
 </head>
 <body>
@@ -29,10 +53,15 @@
     <span class="right-bar">&#x2022; online | &#x1F552; -ms</span>
     </div>
     <div class="search-section">
+        <h1><span class="logo-first">Being</span>Infinity</h1>
+        <p><span class="tag-line">One million phrases.Four Algorithms. Prefix based Auto Suggestions</span></p>
+      
     <div>
-    <h1>BeingInfinity</h1>
-    <p>One million phrases.Four Algorithms. Prefix based Auto Suggestions</p>
-    <span>&#128269;<input placeholder="Start Typing to search"></span>
+    <span>
+       <span class="lens">&#128269</span>
+        <input class="search-box" placeholder="Start Typing to search">
+      </span>
+        <div id="suggestion-box">Suggestion box</div>
      </div>
 </body>
 </html>
