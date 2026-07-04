@@ -1,37 +1,65 @@
-h1{
-    color:blue;
+
+h1 {
+  color: red;
 }
 
-/*property : value*/
+/* property : value */
+
+
 #home-intro{
-    text-align: center;
-    border: 3px;
-    border-color:black;
-    border-style:solid;
-
-    border: 3px solid blue;
-
-
+  text-align: center;
+  border: 3px solid blue;
 }
-
 
 #home-intro:hover{
-    background-color: blueviolet;
-
+  background-color: burlywood;
 }
-p2{
-    color:blue;
+
+#p2{
+  color: blue;
 }
 
 #nav{
-    text-align:center;
-    background-color: brown;
-    height:25px;
-    padding-top: 5px;
-    margin-down: 5px;
+  text-align: center;
+  background-color: brown;
+  height: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
 }
+
 #nav a{
-    margin: 0px 5px;
-    text-decoration: none;
-    color: bisque;
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
 }
+
+#card{
+  align-items: center;
+  margin-top: 5px;
+  
+}
+
+#card-img{
+  align-items: center;
+  margin-top: 5px;
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 3px auto;
+  border-radius: 8px;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  border radius;
+}
+
+#action{
+  text-align: center;
+}
+button{
+  width: 100%;
+
+}
+
